@@ -1,6 +1,6 @@
 # Automatic-Relation-Extraction-from-Scientific-Wet-lab-Protocols
 
-This repository is being prepared for relation extraction between the entities that appear in Wet-lab Protocols. Wet-lab Protocols are the instruction that researchers follow while conducting an experiment in biological or chemical laboratory. This work is intended to enable the researchers to get structured knowledge on the relationships between taken actions and scientific objects present in text of scientific protocols. As a result, they can get insights and make valuable decisions.
+This repository is being prepared for relation extraction between the entities that appear in Wet-lab Protocols. Wet-lab Protocols are the instruction that researchers follow while conducting an experiment in biological or chemical laboratory. This work is intended to enable the researchers to get structured knowledge on the relationships between taken actions and scientific objects present in text of scientific protocols. As a result, they can get insights and make valuable decisions. The dataset being used for this task is free-sourced developed by (Chaitanya Kulkarni, Wei Xu, Alan Ritter, Raghu Machiraju) and available at: https://github.com/chaitanya2334/WLP-Dataset
 
 <h2>Requirements</h2>
 Linux OS bash Terminal (Tested on Debian 10)
@@ -22,7 +22,8 @@ Linux OS bash Terminal (Tested on Debian 10)
 
 
 1. Open Linux OS terminal and go to project directory ../gcn-over-pruned-trees-wetlab/..
-2. First download and unzip GloVe vectors with:
+2. unzip dataset.zip file (Dataset after preprocessing)
+3. First download and unzip GloVe vectors with:
 
 `chmod +x download.sh; ./download.sh`
 
